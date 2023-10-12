@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Dark Mode</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/dark-mode.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <!-- Javascript -->
+    <script src="./src/js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Light and Dark</h2>
+        <div>
+            <input type="checkbox" name="change-theme" id="change-theme">
+            <label for="change-theme">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
+            </label>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="card-image">
+                <span>Jeep</span>
+                <img src="./src/img/jeep-renegade.png" alt="Jeep Renegade">
+            </div>
+
+            <div class="card-details">
+                <h2>Jeep Renegade</h2>
+                <h1>Trailhawk</h1>
+                <p class="subtitle">Lorem, ipsum dolor.</p>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga officiis saepe fugit corporis ratione blanditiis, ex rem necessitatibus magnam nihil atque perspiciatis facere quos similique mollitia odit commodi laborum.</p>
+                <div class="price-container">
+                    <span class="price">R&#36; 115.990</span>
+                    <button class="btn">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
